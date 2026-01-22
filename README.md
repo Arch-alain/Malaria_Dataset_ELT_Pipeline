@@ -25,17 +25,17 @@ The pipeline performs the following tasks:
 Create a `.env` file in the project root (this file should be added to `.gitignore`):
 
 ```bash
-CLICKHOUSE_USER=analytics
-CLICKHOUSE_PASSWORD=SuperSecurePass123
-CLICKHOUSE_DB=dataset_db
-CLICKHOUSE_HOST=localhost
-CLICKHOUSE_PORT=9000
-DATA_DIR=data
-MINIO_BUCKET = datasets
-MINIO_ENDPOINT = localhost:9005
-MINIO_ACCESS_KEY = minioadmin
-MINIO_SECRET_KEY = minioadmin
-LOGS_DIR=logs
+CLICKHOUSE_USER=""
+CLICKHOUSE_PASSWORD=""
+CLICKHOUSE_DB=""
+CLICKHOUSE_HOST=""
+CLICKHOUSE_PORT=""
+DATA_DIR=""
+MINIO_BUCKET = ""
+MINIO_ENDPOINT = ""
+MINIO_ACCESS_KEY = ""
+MINIO_SECRET_KEY =""
+LOGS_DIR=""
 
 ```
 
