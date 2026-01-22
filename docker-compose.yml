@@ -15,8 +15,8 @@ services:
       - "8123:8123"   # HTTP interface
       - "9000:9000"   # Native TCP interface
     volumes:
-      - clickhouse_data:/var/lib/clickhouse
-      - clickhouse_logs:/var/log/clickhouse-server
+      - ./clickhouse_data:/var/lib/clickhouse
+      - ./clickhouse_logs:/var/log/clickhouse-server
 
   clickhouse-client:
     image: clickhouse/clickhouse-client:latest
@@ -44,7 +44,7 @@ services:
       MINIO_ROOT_PASSWORD: minioadmin
     command: server /data --console-address ":9001"
     volumes:
-      - minio_data:/data
+      - ./minio_data:/data
 volumes:
   clickhouse_data:
   clickhouse_logs:
