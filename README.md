@@ -1,4 +1,4 @@
-# 🧩 Data Ingestion Pipeline for ClickHouse
+# 🧩 Malaria dataset collection project
 
 This project aims at achieving two objectives:
 1. Monitoring the data collection process to keep track of the progress
@@ -58,6 +58,8 @@ polars
 clickhouse-driver
 requests
 python-dotenv
+minio
+json
 ```
 
 ---
